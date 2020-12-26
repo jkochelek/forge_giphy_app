@@ -1,0 +1,12 @@
+modules:
+  macro:
+    - key: giphy
+      function: main
+      title: GIPHY
+      description: View random GIPHY gifs!
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/60b823d2-fca2-4c87-b7e4-3ac9e441f556
+  name: giphy_app
